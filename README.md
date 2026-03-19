@@ -38,7 +38,6 @@ A clean, fully responsive personal portfolio website for **Ashraf El Khidr** —
 |---|---|
 | **HTML5** | Semantic page structure and accessibility |
 | **CSS3** | Layout (Grid & Flexbox), animations, CSS variables, responsive design |
-| **JavaScript** | Minimal — used for interactive enhancements |
 | **Google Fonts** | Raleway (body) + Poppins (accents) typography |
 | **CSS Custom Properties** | Full theme switching (light/dark mode) without JavaScript |
 
