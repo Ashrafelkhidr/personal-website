@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Ashraf Elkhidr</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__loop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'm A<br />
+            Chemistry Educator<br />
+            & EdTech Developer
+          </h1>
+
+          <p class="bio__objective">
+            My name is <span class="bio__name">Ashraf El Khidr</span>, a
+            Chemistry teacher & ed-tech creator building interactive simulations
+            and digital tools that make science visual, engaging, and truly
+            understood by connecting chemistry with programming. I also create
+            educational content on
+            <a
+              href="https://www.facebook.com/ashraf.muhammed.731135"
+              target="_blank"
+              class="bio__facebook"
+              >Facebook</a
+            >,
+            <a
+              href="https://www.youtube.com/@elkhidrchemistry"
+              target="_blank"
+              class="bio__youtube"
+              >YouTube</a
+            >, and
+            <a
+              href="https://www.linkedin.com/in/ashraf-elkhidr-45b744387/"
+              target="_blank"
+              class="bio__linkedin"
+              >LinkedIn</a
+            >.
+          </p>
+
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="/Ashraf(cv).pdf" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+
+        <div class="bio__pic--content">
+          <img
+            src="images/personal-pic..png"
+            alt="picture of Ashraf Elkhidr"
+            class="bio__pic"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with--bg">
+        <h2 class="skills__title h2__heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__name">
+            <h2 class="skills__heading">Chemistry Teaching</h2>
+            <p class="skills__experience">5 years</p>
+          </li>
+          <li class="skills__name">
+            <h2 class="skills__heading">EdTech Tools</h2>
+            <p class="skills__experience">Digital Learning Design</p>
+          </li>
+          <li class="skills__name">
+            <h2 class="skills__heading">HTML</h2>
+            <p class="skills__experience">Structured Learning Pages</p>
+          </li>
+          <li class="skills__name">
+            <h2 class="skills__heading">CSS</h2>
+            <p class="skills__experience">Responsive & Modern Layouts</p>
+          </li>
+          <li class="skills__name">
+            <h2 class="skills__heading">JavaScript</h2>
+            <p class="skills__experience">Interactive Features</p>
+          </li>
+          <li class="skills__name">
+            <h2 class="skills__heading">PowerPoint</h2>
+            <p class="skills__experience">Professional Presentations</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video class="media__video" poster="/images/My_Story.png" controls>
+          <source src="My_Video.m4v" type="video/mp4" />
+          <source src="My_Video.webm" type="video/webm" />
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="projects__title h2__heading">
+          my featured <br />
+          projects
+        </h2>
+
+        <div class="projects__main">
+          <img
+            class="projects__image"
+            src="images/projects_img.png"
+            alt="my featured projects"
+          />
+
+          <div class="projects__data">
+            <div class="projects__description">
+              <h3 class="project__description--title h3__heading">
+                Interactive Chemistry Fundamentals Course
+              </h3>
+              <p class="projects__description--paragraph">
+                This project is an interactive course designed to teach the
+                fundamentals of chemistry in a simple, visual, and engaging way.
+                It helps students understand core concepts such as atomic
+                structure, chemical reactions, and bonding through guided
+                explanations, illustrations, and interactive learning
+                activities.
+              </p>
+
+              <div>
+                <a
+                  class="projects__links"
+                  href="file:///E:/Programming/All%20files%20of%20portofilo/My%20portofilo/index.html"
+                  target="_blank"
+                  >Chrome Link</a
+                >
+                <span>-</span>
+                <a
+                  class="projects__links"
+                  href="file:///E:/Programming/All%20files%20of%20portofilo/My%20portofilo/index.html"
+                  target="_blank"
+                  >Edge Link</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__data">
+            <div class="projects__description">
+              <h3 class="project__description--title h3__heading">
+                Interactive Chemistry Fundamentals Course
+              </h3>
+              <p class="projects__description--paragraph">
+                This project is an interactive course designed to teach the
+                fundamentals of chemistry in a simple, visual, and engaging way.
+                It helps students understand core concepts such as atomic
+                structure, chemical reactions, and bonding through guided
+                explanations, illustrations, and interactive learning
+                activities.
+              </p>
+
+              <div>
+                <a
+                  class="projects__links"
+                  href="file:///E:/Programming/All%20files%20of%20portofilo/My%20portofilo/index.html"
+                  target="_blank"
+                  >Chrome Link</a
+                >
+                <span>-</span>
+                <a
+                  class="projects__links"
+                  href="file:///E:/Programming/All%20files%20of%20portofilo/My%20portofilo/index.html"
+                  target="_blank"
+                  >Edge Link</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <img
+            class="projects__image"
+            src="images/projects_img.png"
+            alt="my featured projects"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with--bg">
+        <h2 class="h2__heading">
+          what my <br />
+          clients say
+        </h2>
+
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              We are truly grateful to have such a dedicated teacher. You always
+              make chemistry easier to understand by explaining ideas in a
+              simple and clear way. Your patience and encouragement give us
+              confidence to ask questions and try again when we make mistakes.
+              Thank you for caring about our success and inspiring us every day.
+            </p>
+            <p class="clients__opinion">
+              Learning with you is always enjoyable because you connect lessons
+              to real life and make them interactive. Your passion for teaching
+              motivates us to work harder and stay curious. You never give up on
+              any student, and that makes a big difference in our learning
+              journey. We appreciate all the effort you put into helping us
+              grow.
+            </p>
+            <p class="clients__opinion">
+              You are more than a teacher; you are a mentor who guides us with
+              kindness and respect. Your creative teaching methods make every
+              class interesting and memorable. Because of you, we feel more
+              confident in our abilities and more excited about science. Thank
+              you for your constant support and dedication to our future.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            "If you’re interested in collaborating on educational or tech-driven
+            projects, feel free to contact me anytime. Email is the best way to
+            reach me, and I’ll respond promptly."
+          </p>
+
+          <a href="mailto:#" class="contact__description--email"
+            >ashraf@example.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/ashraf.muhammed.731135"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/facebook.svg" alt="icon of facebook" />
+            </a>
+            <a href="#" class="contact__social" target="_blank">
+              <img src="images/brand/twitter.svg" alt="icon of twitter" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ashraf-elkhidr-45b744387/"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/LinkedIn.svg" alt="icon of LinkdIn" />
+            </a>
+            <a
+              href="https://github.com/Ashrafelkhidr"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/github.svg" alt="icon of github" />
+            </a>
+            <a
+              href="https://www.instagram.com/mr.ashrafelkhidr/"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/instagram.svg" alt="icon of instagram" />
+            </a>
+            <a
+              href="https://www.youtube.com/@elkhidrchemistry"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/youtube.svg" alt="icon of youtube" />
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContent">
+          <h2 class="h2__heading">
+            Let's work <br />
+            Together!
+          </h2>
+
+          <form class="contact__form" action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full name"
+                required
+                name="Full name"
+              />
+
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="^01[0125][0-9]{8}$"
+                required
+                name="Telephone"
+              />
+            </div>
+
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <input class="contact__button" type="submit" value="send message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2026 Ashraf Elkhidr</footer>
+    </div>
+  </body>
+</html>

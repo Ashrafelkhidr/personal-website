@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Results</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 40px;
+        background: #f4f4f4;
+      }
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 500px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      p {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Submitted Information</h2>
+      <p><strong>Full Name:</strong> <span id="name"></span></p>
+      <p><strong>Phone:</strong> <span id="phone"></span></p>
+      <p><strong>Message:</strong> <span id="message"></span></p>
+
+      <a href="index.html" class="back-home">← Back to Home</a>
+    </div>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+
+      document.getElementById("name").textContent = params.get("Full name");
+      document.getElementById("phone").textContent = params.get("Telephone");
+      document.getElementById("message").textContent =
+        params.get("description");
+    </script>
+  </body>
+</html>
