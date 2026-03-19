@@ -10,6 +10,7 @@ A clean, fully responsive personal portfolio website for **Ashraf El Khidr** —
 
 ## 🖼️ Demo / Preview
 
+> **Live Demo:** [🔗 ashrafelkhidr.github.io/personal-website](https://ashrafelkhidr.github.io/personal-website/)
 ![Light Mode](./images/preview-light.png)
 ![Dark Mode](./images/preview-dark.png)
 
